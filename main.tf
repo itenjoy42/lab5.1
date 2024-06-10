@@ -4,7 +4,7 @@ module "vpc" {
   region          = var.REGION
   az_1            = var.AZ_1
   az_2            = var.AZ_2
-
+ 
   vpc-name        = var.VPC-NAME
   vpc-cidr        = var.VPC-CIDR
   igw-name        = var.IGW-NAME
